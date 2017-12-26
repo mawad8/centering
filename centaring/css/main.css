@@ -1,0 +1,46 @@
+/*text align:center*/
+/*this centering element for text only*/
+/*if i try to center the img it will not centerby it selflike i i did
+img{
+	text-align:center;
+	} 
+	it will not center becuse this for text only
+	but
+	if i center the holl div
+	div{
+	text-align:center;
+	}
+		its gonna center the img becuse i give the order for
+		the parent so the child its gonna follow by defullt*/
+		.cen{
+			text-align: center;
+		}
+/*and if i wanna separate the centering there is deffirnt
+way to center the img */
+/*or--------------------give the img div and center the dive 
+its connect with the img*/
+/*here we gonna center evrything by it self*/
+h3{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+/*but the img i cant do the same becuse its img not text
+so we will give the img div and center the holl div*/
+.imgcenter{
+	text-align: center;
+}
+/*-------------------------------*/
+/*if i wanna center useing margin i have to give width
+so the computer can know the space for the element
+he can center 50% from which number like give 80% width
+so he can know 50% from the 80% like that
+and i cant but 100% he cant center on the 100% width becuse 
+the element its take the holl screen how can i center
+somthing take the holl screen i have to make it less thean the 
+screen so i can centere it */
+.margincentering{
+	width: 90%;
+	margin: 0 auto;
+}
